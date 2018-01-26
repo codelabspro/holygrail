@@ -8,11 +8,13 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
+import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppNavbarComponent
   ],
   imports: [
     BrowserModule,
