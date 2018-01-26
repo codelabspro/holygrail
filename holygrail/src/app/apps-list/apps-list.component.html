@@ -1,0 +1,11 @@
+<ul>
+  <div *ngFor="let app of appsObservable | async">
+    <ngb-alert type="info" dismissable="false">
+    <h3><a href="">{{app.title}}</a></h3>
+    <p>{{app.description}}</p>
+    <div>
+      <a href="{{app.url}}" target="_blank" classes="btn btn-danger">Go to app</a>
+    </div>
+  </ngb-alert>
+  </div>
+</ul>

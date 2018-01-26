@@ -9,13 +9,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
+import { AppsListComponent } from './apps-list/apps-list.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppNavbarComponent
+    AppNavbarComponent,
+    AppsListComponent
   ],
   imports: [
     BrowserModule,
