@@ -34,6 +34,9 @@ npm run deploy
 ### Open
 firebase open hosting:site
 
+### Deployment 
+https://theholygrailapp.firebaseapp.com/
+
 ## Tips 
 
 To remove environment.ts from git : 
